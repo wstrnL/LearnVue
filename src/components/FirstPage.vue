@@ -101,12 +101,13 @@ export default {
         for (let j = 0; j < arr1[i].length; j++) {
           arr2[j][i] = arr1[i][j]
         }
-      // 打印新数组
-      for (let i = 0; i < arr2.length; i++) {
-        for (let j = 0; j < arr2[i].length; j++) {
-          document.writeln(arr2[i][j])
+        // 打印新数组
+        for (let i = 0; i < arr2.length; i++) {
+          for (let j = 0; j < arr2[i].length; j++) {
+            document.writeln(arr2[i][j])
+          }
+          document.write('<br />')
         }
-        document.write('<br />')
       }
     }
   }
