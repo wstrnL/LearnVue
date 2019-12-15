@@ -1,4 +1,4 @@
-<template slot-scope="scope">
+<template>
   <el-container>
     <el-aside width="200px">
       <el-tree :data="data"
